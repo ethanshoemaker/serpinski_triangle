@@ -3,7 +3,7 @@ clc
 close all
 
 counter = 0;
-iterations = 5000;
+iterations = 2500;
 triangle_points = [-1 1 0;0 0 1];
 scatter(triangle_points(1,:),triangle_points(2,:),'filled','k')
 hold on
@@ -44,3 +44,5 @@ end
 
 scatter(X,Y,'filled','b')
 axis off
+hold off
+    
